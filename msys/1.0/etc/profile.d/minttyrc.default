@@ -1,0 +1,12 @@
+BoldAsFont=no
+FontHeight=14
+Font=Consolas
+FontSmoothing=full
+AllowBlinking=yes
+Transparency=high
+CursorType=block
+OpaqueWhenFocused=yes
+BellSound=yes
+BackgroundColour=48,10,36
+ForegroundColour=222,219,203
+Columns=120
