@@ -1,0 +1,3 @@
+#!/bin/sh
+## Alias python in interactive mode
+alias py='py -i'
