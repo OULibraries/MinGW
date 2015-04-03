@@ -31,7 +31,7 @@ Start in: C:\MinGW\msys\1.0
 ## Install Git
 1. Uncheck all components except Use a trutype font
 2. Use Git from git bash only
-3. use openssh
+3. If the installer asks you to choose an SSH executable, use OpenSSH
 4. checkout windows style, commit unix style
 
 ## Get the 'make work good' sauce
