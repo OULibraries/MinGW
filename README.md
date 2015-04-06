@@ -37,12 +37,12 @@ NOTE: The shortcut will not work correctly when pinned to the start bar.
 
 ## Install Git
 1. Uncheck all components except Use a trutype font
-2. Use Git from git bash only
+2. Choose to Use Git from git bash only
 3. If the installer asks you to choose an SSH executable, use OpenSSH
 4. checkout windows style, commit unix style
 
 ## Get the 'make work good' sauce
-Open git bash
+Open git bash and run the following commands:
 ```
 cd /C/MinGW
 git init
@@ -50,8 +50,12 @@ git remote add origin https://github.com/OULibraries/MinGW-Setup.git
 git fetch
 git checkout --track origin/master
 ```
-
 Close git bash
+
+## Your`.ssh` config 
+
+When you get to this point, you may not have a `/home/username/.ssh` if you haven't previously been using OpenSSH. 
+
 
 Open terminal. It will do some configuration and ask you to close out.
 Open terminal again, and you should have a nice shell that fires up an ssh agent
