@@ -1,5 +1,5 @@
-# MinGW
-Some convenience config for our Windows users who want to work with MinGW
+# MinGW Setup
+Some convenience config for our Windows users who want to work with MinGW and Git Bash. 
 
 
 ## download and install mingw (run as administrator)
@@ -39,7 +39,7 @@ Open git bash
 ```
 cd /C/MinGW
 git init
-git remote add origin https://github.com/OULibraries/MinGW.git
+git remote add origin https://github.com/OULibraries/MinGW-Setup.git
 git fetch
 git checkout --track origin/master
 ```
