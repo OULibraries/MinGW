@@ -50,13 +50,16 @@ git remote add origin https://github.com/OULibraries/MinGW-Setup.git
 git fetch
 git checkout --track origin/master
 ```
-Close git bash
+Close git bash.
+
+
+Open terminal. It will do some configuration and ask you to close out.
+
+Open terminal again, and you should have a nice shell that fires up an ssh agent
+and has your windows user profile mounted to /home/username
+
 
 ## Your`.ssh` config 
 
 When you get to this point, you may not have a `/home/username/.ssh` if you haven't previously been using OpenSSH. 
 
-
-Open terminal. It will do some configuration and ask you to close out.
-Open terminal again, and you should have a nice shell that fires up an ssh agent
-and has your windows user profile mounted to /home/username
