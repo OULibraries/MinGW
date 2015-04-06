@@ -17,12 +17,19 @@ and extract to mingw:
     C:\MinGW\msys\1.0\bin\
 
 ## Make a shortcut
-Create a shortcut called Terminal (or whatever you like) in:
+Create a shortcut called Terminal (or whatever you like) using the following settings:
 ```
-%APPDATA%\Microsoft\Windows\Start Menu\Programs
 Target:   C:\MinGW\msys\1.0\msys.bat -mintty
 Start in: C:\MinGW\msys\1.0
 ```
+
+If you'd like the shortcut to appear in your Start Menu, you can open the following path in Windows Explorer and create it there. 
+```
+%APPDATA%\Microsoft\Windows\Start Menu\Programs
+```
+
+NOTE: The shortcut will not work correctly when pinned to the start bar. 
+
 
 ## Download Git SCM
 <https://msysgit.github.io/>
