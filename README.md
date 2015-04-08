@@ -59,7 +59,7 @@ Open terminal again, and you should have a nice shell that fires up an ssh agent
 and has your windows user profile mounted to /home/username
 
 
-## Your`.ssh` config 
+## Your`.ssh` folder 
 
-When you get to this point, you may not have a `/home/username/.ssh` if you haven't previously been using OpenSSH. 
+When you get to this point, you may not have a `/home/username/.ssh` folder if you haven't previously been using OpenSSH. 
 
