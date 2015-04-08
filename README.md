@@ -6,8 +6,8 @@ Some convenience config for our Windows users who want to work with MinGW and Gi
 <http://sourceforge.net/projects/mingw/files/latest/download?source=files>
 
 1. Install for all users
-2. select mingw-developer-toolkit
-3. Apply changes
+2. Once downloaded, in the MinGW Installation Manager window, select mingw-developer-toolkit
+3. Under Installation tab, select Apply changes
 
 
 ## Download mintty for msys
