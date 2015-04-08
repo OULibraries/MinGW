@@ -14,6 +14,7 @@ Some convenience config for our Windows users who want to work with MinGW and Gi
 <https://code.google.com/p/mintty/downloads/list>
 
 example: mintty-1.1.3-msys.zip
+
 and extract to mingw:
     C:\MinGW\msys\1.0\bin\
 
