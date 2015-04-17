@@ -21,8 +21,7 @@ and extract to mingw:
 ## Make a shortcut
 Create a shortcut called Terminal (or whatever you like) using the following settings:
 ```
-Target:   C:\MinGW\msys\1.0\msys.bat -mintty
-Start in: C:\MinGW\msys\1.0
+Target:   C:\MinGW\msys\1.0\bin\mintty.exe /bin/env CHERE_INVOKING=1 /bin/bash -l
 ```
 
 If you'd like the shortcut to appear in your Start Menu, you can open the following path in Windows Explorer and create it there. 
