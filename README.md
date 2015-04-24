@@ -9,6 +9,8 @@ Some convenience config for our Windows users who want to work with MinGW and Gi
 2. Once downloaded, in the MinGW Installation Manager window, select mingw-developer-toolkit
 3. Under Installation tab, select Apply changes
 
+You may also want to install additional Unix tools, such as the nano text editor. 
+
 
 ## Download mintty for msys
 <https://code.google.com/p/mintty/downloads/list>
@@ -59,5 +61,13 @@ and has your windows user profile mounted to /home/username
 
 ## Your`.ssh` folder 
 
-When you get to this point, you may not have a `/home/username/.ssh` folder if you haven't previously been using OpenSSH. 
+When you get to this point, you probably won't have a `/home/username/.ssh` folder, so you'll need to create taht. 
+
+## Your ssh keys
+
+Use `ssh-keygen` to generate a public/private keypair and email Jason your public key. 
+
+## Your `.ssh/config` file
+
+You'll also need an `.ssh/config` file that has the right set up for the broker boxes that you'll be using. Ask Jason or Logan for a copy. 
 
