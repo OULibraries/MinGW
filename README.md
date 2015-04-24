@@ -31,6 +31,9 @@ If you'd like the shortcut to appear in your Start Menu, you can open the follow
 %APPDATA%\Microsoft\Windows\Start Menu\Programs
 ```
 
+Pinning the shortcut to the Windows Start Bar doesn't currently work. 
+
+
 ## Download Git SCM
 <https://msysgit.github.io/>
 
