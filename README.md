@@ -42,7 +42,9 @@ Pinning the shortcut to the Windows Start Bar doesn't currently work.
 1. Uncheck all components except Use a trutype font
 2. Choose to Use Git from git bash only
 3. If the installer asks you to choose an SSH executable, use OpenSSH
-4. checkout windows style, commit unix style
+4. checkout as-is style, commit unix style
+ 
+Previous versions of the instructions recommended "checkout windows, commit unix" but that is a less good option. If you need to change this setting, you can just re-run the Git installer. 
 
 ## Get the 'make work good' sauce
 Open git bash and run the following commands:
