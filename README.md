@@ -1,3 +1,5 @@
+#DEPRECATED
+
 # MinGW Setup
 Some convenience config for our Windows users who want to work with MinGW and Git Bash. 
 
