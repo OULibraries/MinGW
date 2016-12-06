@@ -1,6 +1,4 @@
-# DEPRECATED
-
-See [our new windows setup](https://github.com/OULibraries/msys2-setup).
+# DEPRECATED, see [our new windows setup](https://github.com/OULibraries/msys2-setup).
 
 # MinGW Setup
 Some convenience config for our Windows users who want to work with MinGW and Git Bash. 
